@@ -149,7 +149,7 @@ p {
 }
 
 .section {
-  margin: 5rem 0;
+  padding: 5rem 0;
 }
 
 .section-title {
@@ -288,7 +288,29 @@ About
 Services
 ===============
 */
+.services {
+  background: var(--clr-grey-10);
+}
 
+.service {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.service-icon {
+  background: var(--clr-primary-5);
+  color: var(--clr-primary-10);
+  padding: 0.5rem;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.service-text {
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*
 =============== 
 Featured Tours
