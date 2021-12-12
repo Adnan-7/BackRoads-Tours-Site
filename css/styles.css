@@ -184,6 +184,8 @@ Navbar
   right: 0;
   width: 100%;
   background: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--dark-shadow);
 }
 
 .nav-icons {
@@ -231,6 +233,15 @@ Navbar
   background: var(--clr-primary-8);
   color: var(--clr-primary-1);
   padding-left: 2.25rem;
+}
+
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.nav-links {
+  height: 280px;
 }
 
 /*
